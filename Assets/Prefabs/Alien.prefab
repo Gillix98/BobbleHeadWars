@@ -101,6 +101,25 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 1
+--- !u!95 &285443573630470004
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2313405379857866058}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 537bf80de014ae743a2ab9682333096b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &2313405379857767402
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -170,6 +189,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c62bb7c342d064be783edcee0d6a5064, type: 3}
+--- !u!1 &2313405379857866058 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: c62bb7c342d064be783edcee0d6a5064,
+    type: 3}
+  m_PrefabInstance: {fileID: 2313405379857767402}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2313405379857367402 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: c62bb7c342d064be783edcee0d6a5064,
@@ -231,6 +256,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 7df968ec880694920bcb46964b9d62a4, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f477ec2647c4b4d449b1fd4f6fa733ec, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7df968ec880694920bcb46964b9d62a4, type: 3}
 --- !u!4 &4329685786043780698 stripped
