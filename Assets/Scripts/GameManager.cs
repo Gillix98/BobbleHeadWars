@@ -99,6 +99,11 @@ public class GameManager : MonoBehaviour
                 }
             }
         }
+
+        if (player == null)
+        {
+            return;
+        }
     }
 
     public void AlienDestroyed()
